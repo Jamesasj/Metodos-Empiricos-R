@@ -12,8 +12,8 @@ dados <- dados[order(-dados$TF),]
 
 par(mfrow=c(1,2)) 
 # grafico a
-plot(dados$TF , col = "blue", pch = ".", cex = 1, lty = "solid", lwd = 2)
-points(dados$IDF, col = "red", pch = "x", cex = 1, lty = "solid", lwd = 2)
+plot(dados$TF , col = "blue", pch = 19, cex = 1, lty = "solid", lwd = 2)
+points(dados$IDF, col = "red", pch = 23, cex = 1, lty = "solid", lwd = 2)
 
 # grafico B
-plot(dados$TFIDF,   col="blue", pch = "x", cex = 1, lty = "solid", lwd = 2)
+plot(dados$TFIDF,   col="blue", pch = 24, cex = 1, lty = "solid", lwd = 2)
